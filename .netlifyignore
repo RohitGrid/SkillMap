@@ -1,0 +1,13 @@
+# Ignore secret scanning for these legitimate environment variables
+ADZUNA_APP_ID
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL
+NEXT_PUBLIC_CLERK_SIGN_IN_URL
+GEMINI_API_KEY
+NEXT_PUBLIC_CLERK_SIGN_UP_URL
+ADZUNA_APP_KEY
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+
+# Ignore build files that may contain environment variables
+.netlify/
+.next/
+node_modules/
